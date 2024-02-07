@@ -7,10 +7,11 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true || $_SESSION[
     exit(); 
 }
 
-echo "Hello admin";
+echo "Hello admin<br><br>";
 ?>
 
 
+<a href="create-user.php">Create User</a>
 <a href="../logout.php">Logout</a>
 <h1>UserList</h1>
 <table>
