@@ -1,17 +1,5 @@
-<?php 
-    session_start();
-    include("../dbcon.php"); 
-    
-    if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
-        header("Location: ../login.php");
-        exit();
-    }
+<?php include("user-session.php") ?>
 
-?>
 
-<?php
-    session_start();
-    echo "Hello user";
-?>
-
+<a href="profile.php">Profile</a>
 <a href="../logout.php">Logout</a>
