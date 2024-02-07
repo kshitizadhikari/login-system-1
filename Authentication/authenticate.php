@@ -47,9 +47,11 @@ if ($stmt_select->num_rows() > 0) {
         exit();
     } else {
         echo "Incorrect username or password";
+        header("Location: ../login.php");
     }
 } else {
     echo "User not found";
+    header("Location: ../login.php");
 }
 
 $stmt_select->close();

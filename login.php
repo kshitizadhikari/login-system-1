@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <div class="d-flex align-items-center justify-content-center p-5">
+    <div class="d-flex align-items-center justify-content-center p-5 vh-100">
         <div class="border border-dark p-5">
             <a href="signup.php">SignUp</a>
             <div>

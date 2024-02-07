@@ -9,5 +9,3 @@
     if(!$conn) {
         die("Connection failed");
     }
-
-    echo "Connection successful";
