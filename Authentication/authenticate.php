@@ -41,7 +41,7 @@ if ($stmt_select->num_rows() > 0) {
         if($db_role_id == 1)
         {
             header("Location: ../Admin/home.php");
-        } else if($db_role_id == 2) {
+        } else {
             header("Location: ../User/home.php");
         }
         exit();

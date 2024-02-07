@@ -21,20 +21,18 @@
         <div>
         <a href="home.php">Home</a>
 
-            <h2 class="p-3 mb-1">Edit User Details</h2>
+            <h2 class="p-3 mb-1">Edit User Role</h2>
         </div>
         <div>
             
             <form action="edit-user.php?id=<?php echo $row['id']?>" method="POST">
                 <input type="hidden" name="id" value="<?php echo $row['id']?>" >
                 <div class="mb-3">
-                    <label class="form-label">Username</label>
-                    <input type="text" class="form-control border border-dark" name="username" value="<?php echo $row['username']?>" required>
+                    <label class="form-label">Username: <?php echo $row['username']?></label>
                 </div>
 
                 <div class="mb-3">
-                    <label class="form-label">Email</label>
-                    <input type="email" class="form-control border border-dark" name="email" value="<?php echo $row['email']?>" required>
+                    <label class="form-label">Email: <?php echo $row['email']?></label>
                 </div>
 
                 <div class="mb-3">

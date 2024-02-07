@@ -39,7 +39,10 @@ echo "Hello admin";
                         <td><?php echo $row['role']?></td>
                         <?php if(strcmp($row['role'], "admin") != 0){
                             ?>
-                            <td><a href="edit-user.php?id=<?php echo $row['id']?>">Edit</a></td>
+                            <td>
+                            <a href="edit-user.php?id=<?php echo $row['id']?>">Edit</a> |
+                            <a href="delete-user.php?id=<?php echo $row['id']?>">Delete</a>
+                            </td>
                         <?php
                             }
                         ?>
