@@ -5,7 +5,9 @@
 <div class="d-flex align-items-center justify-content-center p-5">
     <div class="border border-dark p-5">
         <div>
-            <h2 class="p-3 mb-5">Create User</h2>
+        <a href="login.php">Login</a>
+
+            <h2 class="p-3 mb-1">Create User</h2>
         </div>
         <div>
         <form action="signup.php" method="POST">

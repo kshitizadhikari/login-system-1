@@ -2,5 +2,5 @@
 
 <?php
     session_start();
-    echo "Hello user";
+    echo "Hello admin";
 ?>
